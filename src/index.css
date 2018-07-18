@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+html {
+  background-color: rgb(169, 169, 169);
+}
+
+.nav-wrapper {
+  list-style: none;
+  background-color: #fff;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+  font: #888;
+  background-color: rgb(156, 156, 156);
+}
+
+.nav-link {
+  text-align: left;
+  padding: 0px 20px 0px 20px;
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  font: #fff;
+}
+
+.link {
+  padding: 0px 20px 0px 20px;
+  margin: 0;
+}
+
+.assignmentStyle {
+  font: black;
+}
+
+.form {
+  background: -webkit-linear-gradient(bottom, #cccccc, #eeeeee 175px);
+  background: -moz-linear-gradient(bottom, #cccccc, #eeeeee 175px);
+  background: linear-gradient(bottom, #cccccc, #eeeeee 175px);
+  margin: auto;
+  position: relative;
+  width: 550px;
+  height: 100px;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 24px;
+  font-weight: bold;
+  color: #09c;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #999;
+  border: inset 1px solid #333;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.form-control {
+  margin: 45px 50px 30px 70px;
+}
+
+.check {
+  position: fixed;
+  top: 80px;
+  right: 20px;
+  height: 100px;
+}
+
+.redX {
+  position: fixed;
+  top: 80px;
+  right: 20px;
+  height: 100px;
+}
+
+.check {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 300ms;
+}
+
+.redX {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 300ms;
+}
